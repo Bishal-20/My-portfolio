@@ -8,21 +8,19 @@ import {
   html,
   css,
   reactjs,
+  python,
+  socket,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  iocl,
+  codec,
   threejs,
+  FireSmoke,
+  SnapTalk,
+  KinetixAI,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +40,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Applications",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI & Machine Learning",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software & Problem Solving",
     icon: creator,
   },
 ];
@@ -100,166 +98,115 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
+    {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Socket.io",
+    icon: socket,
+  },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "AI/ML Intern",
+    company_name: "Indian Oil Corporation Limited (IOCL)",
+    icon: iocl,
+    iconBg: "white",
+    date: "6th July 2026-5th August 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an AI/ML-based fire and smoke detection system using computer vision.",
+      "Trained and evaluated a YOLO-based object detection model to detect fire and smoke in images and video.",
+      "Prepared and organized datasets, performed model training, and analyzed detection performance.",
+      "Worked on the concept of a monitoring dashboard for visualizing real-time detection results.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Web Developer Intern",
+    company_name: "Codec Technologies India",
+    icon: codec,
+    iconBg: "#0A0A0A",
+    date: "1st July 2025-31st July 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a full-stack e-commerce application using React, Node.js, Express, and MongoDB.",
+      "Built a real-time chat application with user authentication, messaging, and Socket.io-based communication.",
+      "Implemented REST APIs, database operations, authentication, and responsive user interfaces.",
+      "Worked with Git and modern web development tools while debugging and improving application functionality.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "KinetixAI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An AI-powered fitness platform designed to help users build personalized workout and nutrition plans through an interactive experience.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "convex",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "gemini",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: KinetixAI,
+    source_code_link: "https://github.com/Bishal-20/Kinetix-AI",
+  },
+
+  {
+    name: "Fire & Smoke Detection",
+    description:
+      "An AI-based computer vision system that detects fire and smoke from images and video using a YOLO object detection model, with a dashboard concept for monitoring detection results.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "yolo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: FireSmoke,
+    source_code_link: "https://github.com/Bishal-20/AI-based-Fire-Smoke-Detection",
+  },
+
+  {
+    name: "SnapTalk",
+    description:
+      "A real-time chat application that enables users to communicate instantly with authentication, persistent messaging, and real-time updates powered by Socket.io.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socketio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: SnapTalk,
+    source_code_link: "https://github.com/Bishal-20/SnapTalk",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences,projects };
