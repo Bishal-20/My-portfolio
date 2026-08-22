@@ -1,4 +1,5 @@
 import {BrowserRouter} from "react-router-dom";
+import LazyCanvasSection from "./components/LazyCanvasSection";
 
 import {About, Contact, Experience,Hero, Navbar, Tech, Works, StarsCanvas} from "./components";
 const App =() => {
@@ -15,7 +16,9 @@ const App =() => {
           <Works />
           <div className="relative z-0">
             <Contact />
-            <StarsCanvas />
+              <LazyCanvasSection>
+                <StarsCanvas />
+            </LazyCanvasSection>
           </div>
         </div>
     </BrowserRouter>

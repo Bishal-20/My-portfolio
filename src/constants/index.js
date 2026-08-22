@@ -97,6 +97,7 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
+    needsLightBg: true,
   },
     {
     name: "Python",
@@ -105,6 +106,7 @@ const technologies = [
   {
     name: "Socket.io",
     icon: socket,
+    needsLightBg: true,
   },
   {
     name: "git",
@@ -156,7 +158,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "gemini",
+        name: "groq",
         color: "pink-text-gradient",
       },
     ],

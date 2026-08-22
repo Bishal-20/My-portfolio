@@ -3,6 +3,7 @@ import {motion} from 'framer-motion';
 
 import {styles} from '../style';
 import {ComputersCanvas} from './canvas';
+import LazyCanvasSection from "./LazyCanvasSection";
 
 const Hero = () => {
   return(
@@ -19,7 +20,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+          <LazyCanvasSection>
+            <ComputersCanvas />
+          </LazyCanvasSection>
+
+      
 
       <div className='absolute xs:bottom-5 bottom-10 w-full flex justify-center items-center'>
         <a href='#about'>
